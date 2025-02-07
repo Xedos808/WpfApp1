@@ -1,0 +1,245 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.7*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Stretch"
+                    Grid.ColumnSpan="2"
+                    Background="DarkGray">
+            <Image Source="C:\p\2.png"
+                   Stretch="Fill"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Grid.Column="1">
+            <Image Source="C:\p\1.png"
+                   Stretch="Fill"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        Grid.Column="0">
+            <TextBlock Text="Find Worker"
+           Width="150"
+           Height="50"
+           FontSize="20"
+           HorizontalAlignment="Right"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Left"
+                    Grid.Column="0"
+                    Grid.Row="1">
+            <TextBlock Text="Разработчик - программист 1С"
+                       Margin="30"
+                       FontSize="20"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Grid.Column="0"
+            Grid.Row="1">
+            <TextBlock Text="от 100.000р. до 200.000р."
+               Margin="30"
+               FontSize="14"
+               Height="1.65 in"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Grid.Column="0"
+            Grid.Row="1">
+            <TextBlock Text="Тип занятости:"
+               Margin="30"
+               FontSize="16"
+               Height="1.15 in"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Grid.Column="0"
+            Grid.Row="1">
+            <TextBlock Text="Полный день"
+               Margin="35"
+               FontSize="14"
+               Height="0.75 in"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Grid.Column="0"
+            Grid.Row="1">
+            <TextBlock Text="Тип работы:"
+               Margin="30"
+               FontSize="16"
+               Height="0.35 in"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+            Grid.Column="0"
+            Grid.Row="1">
+            <TextBlock Text="Удалённо"
+               FontSize="14"
+               Height="0.2in"
+               Margin="35 20 1 0"
+               />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Grid.Column="0"
+            Grid.Row="1">
+            <TextBlock Text="Адрес:"
+               Margin="30 60 1 0"
+               FontSize="16"
+               Height="0.25in"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Grid.Column="0"
+            Grid.Row="1">
+            <TextBlock Text="Москва"
+               Margin="35 100 1 0"
+               FontSize="14"
+               Height="0.3in"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+             HorizontalAlignment="Right"
+             Grid.Row="1"
+             Grid.Column="1">
+            <Image Source="C:\p\3.png"
+            Stretch="Fill"
+            Height="100"
+            Margin="95 20"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Grid.Column="1"
+            Grid.Row="1">
+            <TextBlock Text="АО Интерстеллар"
+               Margin="70 120"
+               FontSize="20"
+               Width="170"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+     HorizontalAlignment="Stretch"
+     Grid.Row="1"
+     Grid.Column="1">
+            <Image Source="C:\p\4.png"
+    Stretch="Fill"
+    Height="23"
+    Margin="100 150"
+    Width="90"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+    HorizontalAlignment ="Center"
+    Grid.Column="1"
+    Grid.Row="1">
+            <TextBlock Text="Иновационная система IT - компания,"
+       Margin="5 180"
+       FontSize="10"
+       Width="200"
+       Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+HorizontalAlignment ="Center"
+Grid.Column="1"
+Grid.Row="1">
+            <TextBlock Text="Специализирующаяся на разработке веб - и "
+   Margin="5 190"
+   FontSize="10"
+   Width="212"
+   Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+HorizontalAlignment ="Stretch"
+Grid.Column="1"
+Grid.Row="1">
+            <TextBlock Text="Мобильных приложений. Мы создаём "
+   Margin="5 200"
+   FontSize="10"
+   Width="200"
+   Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+HorizontalAlignment ="Stretch"
+Grid.Column="1"
+Grid.Row="1">
+            <TextBlock Text="высокотехнологичные решения для бизнеса,"
+   Margin="5 210"
+   FontSize="10"
+   Width="210"
+   Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+HorizontalAlignment ="Stretch"
+Grid.Column="1"
+Grid.Row="1">
+            <TextBlock Text="автоматизируем процессы и помагаем"
+   Margin="5 220"
+   FontSize="10"
+   Width="200"
+   Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+HorizontalAlignment ="Stretch"
+Grid.Column="1"
+Grid.Row="1">
+            <TextBlock Text="компаниям выходить на новый уровень."
+   Margin="4 230"
+   FontSize="10"
+   Width="200"
+   Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+HorizontalAlignment ="Center"
+Grid.Column="1"
+Grid.Row="1">
+            <TextBlock Text="Наша команда объединяет опытных"
+   Margin="5 240"
+   FontSize="10"
+   Width="190"
+   Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+HorizontalAlignment ="Stretch"
+Grid.Column="1"
+Grid.Row="1">
+            <TextBlock Text="разработчиков, дизайнеров и аналитиков,"
+   Margin="5 250"
+   FontSize="10"
+   Width="200"
+   Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+HorizontalAlignment ="Stretch"
+Grid.Column="1"
+Grid.Row="1">
+            <TextBlock Text="чтобы превращать идеи в надёжные и"
+   Margin="5 260"
+   FontSize="10"
+   Width="190"
+   Height="24"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical"
+HorizontalAlignment ="Stretch"
+Grid.Column="1"
+Grid.Row="1">
+            <TextBlock Text="удобные цифровые продукты."
+   Margin="7 270"
+   FontSize="10"
+   Width="190"
+   Height="24"/>
+        </StackPanel>
+        <StackPanel
+            Grid.Row="1">
+            <Button Content="Откликнуться"
+            Margin="150 300"/>
+        </StackPanel>
+    </Grid>
+</Window>
